@@ -22,26 +22,7 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { toast } from 'sonner';
-import {
-  FileText,
-  Upload,
-  Download,
-  Eye,
-  Lock,
-  Search,
-  Filter,
-  Trash2,
-  Share2,
-  Calendar,
-  Clock,
-  Shield,
-  CheckCircle,
-  AlertTriangle,
-  FileImage,
-  FilePdf,
-  FileSpreadsheet,
-  File
-} from 'lucide-react';
+import { FileText, Upload, Download, Eye, Lock, Search, Filter, Trash2, Share2, Calendar, Clock, Shield, CheckCircle, AlertTriangle, FileImage, File as FilePdf, FileSpreadsheet, File } from 'lucide-react';
 import { format, parseISO } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { TelemedicineService, SecurityService, type MedicalDocument, type Consultation } from '@/lib/telemedicine-system';
