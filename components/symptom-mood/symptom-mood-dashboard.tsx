@@ -37,7 +37,7 @@ import {
   Clock,
   Zap
 } from 'lucide-react';
-import { SymptomMoodService, SymptomAnalysisService, type SymptomEntry, type MoodEntry, type SymptomPattern, type MoodCorrelation } from '@/lib/symptom-mood-system';
+import { SymptomMoodService, SymptomAnalysisService, type SymptomEntry, type MoodEntry, type SymptomPattern, type MoodCorrelation } from '@/lib/local-storage-system';
 import { format, subDays, parseISO } from 'date-fns';
 
 interface SymptomMoodDashboardProps {

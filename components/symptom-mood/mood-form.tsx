@@ -44,7 +44,7 @@ import {
 } from 'lucide-react';
 import { format } from 'date-fns';
 import { cn } from '@/lib/utils';
-import { SymptomMoodService, type MoodEntry } from '@/lib/symptom-mood-system';
+import { SymptomMoodService, type MoodEntry } from '@/lib/local-storage-system';
 
 interface MoodFormProps {
   userId: string;

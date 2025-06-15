@@ -43,7 +43,7 @@ import {
 } from 'lucide-react';
 import { format } from 'date-fns';
 import { cn } from '@/lib/utils';
-import { SymptomMoodService, type SymptomEntry, type PainLocation } from '@/lib/symptom-mood-system';
+import { SymptomMoodService, type SymptomEntry, type PainLocation } from '@/lib/local-storage-system';
 
 interface SymptomFormProps {
   userId: string;
