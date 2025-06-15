@@ -402,7 +402,7 @@ export function ReportGenerator({ userId, onReportGenerated }: ReportGeneratorPr
             <div className="space-y-2 text-sm text-blue-700">
               <p><strong>Especialidad:</strong> {SPECIALTIES.find(s => s.value === selectedSpecialty)?.label}</p>
               <p><strong>Plantilla:</strong> {templates.find(t => t.id === selectedTemplate)?.name}</p>
-              <p><strong>Período:</strong> {format(dateRange.start, 'dd/MM/yyyy')} - {format(dateRange.end, 'dd/MM/yyyy')}</p>
+              <p><strong>Período:</strong> {format(dateRange.start, 'dd/MM/yyyy')} - {format(dateRange.end, \'dd/MM/yyyy')}</p>
               <p><strong>Opciones:</strong> 
                 {generationOptions.include_charts && ' Gráficos'}
                 {generationOptions.include_recommendations && ' Recomendaciones'}
